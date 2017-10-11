@@ -6,4 +6,4 @@ The button here behaves like a toggle button. You can just add the RoundedRectBu
 If you don't want the toggle button behavior you can set the appropriate background color in awakeFromNib() method and comment out the touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) method. 
 
 ## Screenshot:
-![(/RoundedButton/Screen Shot 2017-10-11 at 3.36.25 PM.png?raw=true "Simulator screenshot")]
+![alt text](https://github.com/nikeshkrjha/RoundedButton/blob/master/Screen%20Shot%202017-10-11%20at%203.36.25%20PM.png)
