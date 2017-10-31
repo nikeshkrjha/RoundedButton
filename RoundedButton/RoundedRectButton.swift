@@ -3,20 +3,11 @@
 //  MyNewProject
 //
 //  Created by Nikesh Jha on 10/11/17.
-//  Copyright © 2017 Javra Software. All rights reserved.
 //
 
 import UIKit
 
 class RoundedRectButton: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
 
     var selectedState: Bool = false
     
@@ -36,7 +27,7 @@ class RoundedRectButton: UIButton {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.selectedState = !self.selectedState
+        selectedState = selectedState
         self.layoutSubviews()
     }
 }
